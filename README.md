@@ -96,7 +96,7 @@ top_k: 40
 top_p: 0.92
 typical_p: 0.95 (Character Voice Consistency, Recommended) - 0.84 (Instruction Following)
 min_p: 0.05
-repetition_penalty: 1.2
+repetition_penalty: 1.3
 repetition_penalty_range: 1024 (Most Tested) / 4096 (No Negative Impact)
 ```
 
