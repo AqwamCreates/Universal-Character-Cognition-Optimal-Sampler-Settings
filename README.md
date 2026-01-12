@@ -130,8 +130,8 @@ repetition_penalty_range: 1024 (Most Tested) / 4096 (No Negative Impact)
 
 | Model Name                                 | Model Parameter Size | Quantization | Description                                            |
 |--------------------------------------------|----------------------|--------------|--------------------------------------------------------|
-| DarkIdol Llama-3.1 Instruct 1.2 Uncensored | 8B                   | IQ2XXS       | Basic Depth                                            |
 | DarkIdol Llama-3.1 Instruct 1.2 Uncensored | 8B                   | IQ2_M        | Rivals With Q3_K_L With High Speed                     |
+| DarkIdol Llama-3.1 Instruct 1.2 Uncensored | 8B                   | IQ2XXS       | Basic Depth                                            |
 | DarkIdol Llama-3.1 Instruct 1.2 Uncensored | 8B                   | IQ1_M        | "Text Messenger"                                       |
 | DarkIdol Llama-3.1 Instruct 1.2 Uncensored | 8B                   | IQ1_S        | "Text Generator"                                       |
 
