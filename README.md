@@ -61,7 +61,7 @@ top_p: 0.9
 typical_p: 0.91
 min_p: 0.1
 repetition_penalty: 1.1
-repetition_penalty_range: 1024 (Tested The Most) / 4096 (No Negative Impact)
+repetition_penalty_range: 1024 (Most Tested) / 4096 (No Negative Impact)
 ```
 
 ### Tigher Configuration For 8B Models With Q3XXS-Q4XXS Quantizations
@@ -73,7 +73,7 @@ top_p: 0.88
 typical_p: 0.9
 min_p: 0.12
 repetition_penalty: 1.1
-repetition_penalty_range: 1024 (Tested The Most) / 4096 (No Negative Impact)
+repetition_penalty_range: 1024 (Most Tested) / 4096 (No Negative Impact)
 ```
 
 ## Model-Sampler Compatibility Report:
