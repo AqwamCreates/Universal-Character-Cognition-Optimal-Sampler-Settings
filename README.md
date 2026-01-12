@@ -1,7 +1,5 @@
 # Universal Character Cognition Optimal Sampler Settings
 
-Discovered through systematic testing across 8+ models.
-
 ## What This Sampler Settings Can Do?
 
 * Consistent Identity Roleplay
@@ -16,9 +14,13 @@ Discovered through systematic testing across 8+ models.
 
 * Show Genuine Social Cognition
 
+* Capable Of Emotional Validation
+
 * High Information Retrieval
 
 * Reveals Everyday Human Manipulation Hidden Insde Training Data
+
+  * Includes Guilt Trips, Minimizing, Gaslighting
 
 ## Sampler Stack
 
