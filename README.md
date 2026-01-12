@@ -51,12 +51,12 @@
 These samplers are stacked in order as shown below. 
 
 ```
-2. temperature           # Creativity
-3. top_k                 # Good Option Variety
-4. top_p                 # Expressive Range
-5. typical_p             # Personality Preservation (IMPORTANT)
-6. min_p                 # Nonsense Filter
-7. repetition_penalty    # Natural Flow Maintenance
+1. temperature           # Creativity
+2. top_k                 # Good Option Variety
+3. top_p                 # Expressive Range
+4. typical_p             # Personality Preservation (IMPORTANT)
+5. min_p                 # Nonsense Filter
+6. repetition_penalty    # Natural Flow Maintenance
 ```
 
 ## The Cognitive Pipeline Theory:
