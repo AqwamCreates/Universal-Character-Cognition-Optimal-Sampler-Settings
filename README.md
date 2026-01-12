@@ -117,3 +117,11 @@ All are Instruct models.
 
 * Light touch - prevents loops without killing character tics
 * Most people over-penalize (1.3+ = stilted dialogue)
+
+## Proven Universal Across:
+
+* Architectures: Llama, Qwen, MoE (Mixture of Experts)
+* Quantizations: Q8 → Q5 → IQ4_XS → Q3_K_L → IQ3_XXS
+* Model Sizes: 3B → 8B → 11B (8B appears optimal)
+* Training Types: Chat, Instruct, Merges, VLMs
+* Character Types: Simple → Complex → Philosophical → Traumatized
