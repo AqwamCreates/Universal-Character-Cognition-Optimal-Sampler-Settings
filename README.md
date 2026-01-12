@@ -44,6 +44,25 @@ The reason it works is because:
 
 4. The output becomes character dialogues that feels "snappy" and responsive to users' reactions.
 
+### **2. Add the "Cognitive Pipeline" Explanation:**
+What you described is brilliant - add it explicitly:
+
+## The Cognitive Pipeline Theory:
+
+This sampler configuration creates a three-stage cognitive pipeline:
+
+1. **Creative Opening** (top_n_sigma → temperature → top_k → top_p)
+   - Allows wide creative consideration of responses
+   - Similar to human brainstorming phase
+
+2. **Personality Filtering** (typical_p → min_p)
+   - Filters creative options through character personality
+   - Ensures consistency with character identity
+
+3. **Polish & Cleanup** (repetition_penalty)
+   - Removes artifacts, ensures natural flow
+   - Prevents repetition without killing character tics
+
 ## Sample Parameters:
 
 ```
