@@ -23,7 +23,6 @@ Discovered through systematic testing across 8+ models.
 These samplers are stacked in order as shown below. 
 
 ```
-
 1. top_n_sigma
 2. temperature
 3. top_k
@@ -31,7 +30,6 @@ These samplers are stacked in order as shown below.
 5. typical_p
 6. min_p
 7. repetition_penalty
-
 ```
 
 ### **2. Add the "Cognitive Pipeline" Explanation:**
@@ -80,19 +78,42 @@ All are Instruct models.
 ## Quantization Recommendations:
 
 ### Maximum Compression (Accept Minor Issues):
-- **Q3_K_L**: ~3GB for 8B
-- Character cognition: ✅ Excellent  
-- Formatting: ⚠️ Occasional leakage
-- Use: When storage is critical, can do minor cleanup
+
+* **Q3_K_L**: ~3GB for 8B
+* Character cognition: ✅ Excellent  
+* Formatting: ⚠️ Occasional leakage
+* Use: When storage is critical, can do minor cleanup
 
 ### Optimal Balance (Recommended):
-- **IQ4_XS** or **Q4_K_M**: ~4GB for 8B
-- Character cognition: ✅ Perfect
-- Formatting: ✅ Perfect
-- Use: **Default choice** for all applications
+
+* **IQ4_XS** or **Q4_K_M**: ~4GB for 8B
+* Character cognition: ✅ Perfect
+* Formatting: ✅ Perfect
+* Use: **Default choice** for all applications
 
 ### Maximum Quality:
-- **Q5_K_L+**: 5GB+ for 8B
-- Character cognition: ✅ Perfect
-- Formatting: ✅ Perfect
-- Use: When storage isn't a concern and you want extra character depth.
+
+* **Q5_K_L+**: 5GB+ for 8B
+* Character cognition: ✅ Perfect
+*  Formatting: ✅ Perfect
+* Use: When storage isn't a concern and you want extra character depth.
+
+## Why These Specific Values Work:
+
+### Temperature: 0.6
+
+* Not too cold (0.3-0.5 = robotic)  
+* Not too hot (0.8-1.2 = random)
+* **Optimal balance** for character consistency with natural variation
+
+### Typical_p: 0.9
+
+* The **secret weapon** for character consistency
+* Strongly favors tokens "typical" for the character/situation
+* Lower (0.7-0.8) = More creative but less consistent
+* Higher (0.95+) = Too rigid, loses personality
+
+### Repetition Penalty: 1.1
+
+* Light touch - prevents loops without killing character tics
+* Most people over-penalize (1.3+ = stilted dialogue)
