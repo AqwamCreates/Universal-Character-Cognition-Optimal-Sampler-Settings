@@ -61,7 +61,7 @@ top_p: 0.9
 typical_p: 0.9
 min_p: 0.1
 repetition_penalty: 1.1
-repetition_penalty_range: 1024 (Tested The Most) / 4096
+repetition_penalty_range: 1024 (Tested The Most) / 4096 (No Negative Impact)
 ```
 
 ## Model-Sampler Compatibility Report:
@@ -95,7 +95,7 @@ All are Instruct models.
 
 * **Q5_K_L+**: 5GB+ for 8B
 * Character cognition: ✅ Perfect
-*  Formatting: ✅ Perfect
+* Formatting: ✅ Perfect
 * Use: When storage isn't a concern and you want extra character depth.
 
 ## Why These Specific Values Work:
