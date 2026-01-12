@@ -18,6 +18,8 @@ Discovered through systematic testing across 8+ models.
 
 * High Information Retrieval
 
+* Reveals Everyday Human Manipulation Hidden Insde Training Data
+
 ## Sampler Stack
 
 These samplers are stacked in order as shown below. 
