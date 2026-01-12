@@ -95,3 +95,4 @@ All are Instruct models.
 - **Q5_K_L+**: 5GB+ for 8B
 - Character cognition: ✅ Perfect
 - Formatting: ✅ Perfect
+- Use: When storage isn't a concern and you want extra character depth.
