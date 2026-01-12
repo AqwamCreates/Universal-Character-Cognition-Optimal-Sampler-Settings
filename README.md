@@ -76,9 +76,21 @@ repetition_penalty: 1.1
 repetition_penalty_range: 1024 (Most Tested) / 4096 (No Negative Impact)
 ```
 
+### Miro Configuration For 8B Models With IQ2XXS-IQ2_M Quantizations
+
+```
+temperature: 0.6
+top_k: 60
+top_p: 0.88
+typical_p: 0.9 (Character Voice Consistency, Recommended) - 0.84 (Instruction Following)
+min_p: 0.12
+repetition_penalty: 1.1
+repetition_penalty_range: 1024 (Most Tested) / 4096 (No Negative Impact)
+```
+
 ## Model-Sampler Compatibility Report:
 
-All are Instruct models.
+### Best General Performance
 
 | Model Name                                 | Model Parameter Size | Quantization | Description                                                 |
 |--------------------------------------------|----------------------|--------------|-------------------------------------------------------------|
@@ -87,6 +99,12 @@ All are Instruct models.
 | DarkIdol Llama-3.1 Instruct 1.2 Uncensored | 8B                   | IQ4_XS       | Q5_K_L Quality But With Higher Inference Speed              |
 | DarkIdol Llama-3.1 Instruct 1.2 Uncensored | 8B                   | Q3_K_L       | IQ4_XS Quality But With Lower Formatting Issues             |
 | Silver-Sun (LLama-2 Special Merge)         | 11B                  | IQ4_XS       | Strong Upgrade From DarkIdol But With Lower Inference Speed |
+
+#### Fast Inference (Must Use Tight Configurations)
+
+| Model Name                                 | Model Parameter Size | Quantization | Description                                            |
+|--------------------------------------------|----------------------|--------------|--------------------------------------------------------|
+| DarkIdol Llama-3.1 Instruct 1.2 Uncensored | 8B                   | IQ2XXS       | Basic Depth                                            |
 
 ## Quantization Recommendations:
 
