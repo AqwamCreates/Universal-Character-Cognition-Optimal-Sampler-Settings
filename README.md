@@ -2,7 +2,21 @@
 
 Discovered through systematic testing across 8+ models.
 
-## What This Sampler Can Do?
+## What This Sampler Settings Can Do?
+
+* Consistent Identity Roleplay
+
+* Understand Social Dynamics (Not Just Dialogue)
+
+* Run Complex Social Games (Not Just Respond)
+
+* Use Emotional Intelligence Strategically
+
+* Maintain Infinite Engagement Loops
+
+* Show Genuine Social Cognition
+
+* High Information Retrieval
 
 ## Sampler Stack
 
