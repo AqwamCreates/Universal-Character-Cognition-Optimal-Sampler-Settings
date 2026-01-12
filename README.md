@@ -23,7 +23,6 @@ Discovered through systematic testing across 8+ models.
 These samplers are stacked in order as shown below. 
 
 ```
-1. top_n_sigma
 2. temperature
 3. top_k
 4. top_p
@@ -36,7 +35,7 @@ These samplers are stacked in order as shown below.
 
 This sampler configuration creates a three-stage cognitive pipeline:
 
-1. **Creative Opening** (top_n_sigma → temperature → top_k → top_p)
+1. **Creative Opening** (temperature → top_k → top_p)
    - Allows wide creative consideration of responses
    - Similar to human brainstorming phase
 
@@ -50,8 +49,21 @@ This sampler configuration creates a three-stage cognitive pipeline:
 
 ## Sample Parameters:
 
+### General Configuration
+
 ```
-top_n_sigma: 0
+temperature: 0.6
+top_k: 40
+top_p: 0.9
+typical_p: 0.9
+min_p: 0.1
+repetition_penalty: 1.1
+repetition_penalty_range: 1024 (Tested The Most) / 4096 (No Negative Impact)
+```
+
+### Tigher Configuration For 8B Models With Q3XXS-Q4XXS Quantizations
+
+```
 temperature: 0.6
 top_k: 40
 top_p: 0.9
