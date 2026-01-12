@@ -88,6 +88,8 @@ With this sampler configuration, it also does this as you talk:
 
 4. This results in the LLM remembering past conversation without introducing much hallucinations or losing consistency.
 
+5. This particular configuration sits on a sweet spot between "prior bias dominance" (rigidity) and "mutation dominance" (chaos).
+
 ## Sample Parameters:
 
 ### General Configuration
