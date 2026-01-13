@@ -185,7 +185,7 @@ repetition_penalty_range: 1024 (Most Tested) / 4096 (No Negative Impact)
 ### "What Do You Mean It Can Think Fast And Smart?!"
 
 * Chain-Of-Thoughts (CoT) Models Only.
-* Mainly 4B (Minimum) / 7B (Recommended) Models With .
+* Mainly 4B (Minimum) / 7B (Recommended) Models.
 * Micro Sampler Configuration (Works Consistently Across 2B-13B).
 * Feels Like You Upgraded The CoT Model For 2-3B Parameters For Q2 Inference Speed.
 * Speed-Leakage Trade-Off:
