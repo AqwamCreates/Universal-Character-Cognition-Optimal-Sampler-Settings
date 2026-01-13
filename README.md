@@ -71,7 +71,7 @@ These samplers are stacked in order as shown below.
 6. repetition_penalty    # Natural Flow Maintenance
 ```
 
-## The Cognitive Pipeline Theory:
+## The Cognitive Pipeline Theory
 
 This sampler configuration creates a three-stage cognitive pipeline:
 
@@ -102,7 +102,7 @@ With this sampler configuration, it also does this as you talk:
 
 5. This particular configuration sits on a sweet spot between "prior bias dominance" (rigidity) and "mutation dominance" (chaos).
 
-## Sample Parameters:
+## Sampler Parameters
 
 * The sampler is static and weighted quant-agnostic. Feel free to change it as you wish.
 
@@ -168,6 +168,14 @@ repetition_penalty: 1.1
 repetition_penalty_range: 1024 (Most Tested) / 4096 (No Negative Impact)
 ```
 
+## Configuration Recommendations
+
+### Poor Man's GPU
+
+* Q2_K Quant Models
+* Micro Sampler Configuration (Works Consistently Across 2B-13B)
+* Chain-Of-Thought Drastically Increase Quality Output When Compared To Non-CoT Versions (Especially at ~4B).
+
 ## Model-Sampler Compatibility Report:
 
 ### Best General Performance
@@ -214,15 +222,7 @@ repetition_penalty_range: 1024 (Most Tested) / 4096 (No Negative Impact)
 |--------------------------------------------|----------------------|--------------|--------------------------------------------------------------|
 | Huihui NVIDIA Nemotron Nano v2 Abliterated | 9B                   | IQ2_K        | High Quality Q2_K But Bottlenecked By CoT x Inference Speed  |
 
-## Configuration Recommendations:
-
-### Poor Man's GPU
-
-* Q2_K Quant Models
-* Micro Sampler Configuration (Works Consistently Across 2B-13B)
-* Chain-Of-Thought Drastically Increase Quality Output When Compared To Non-CoT Versions (Especially at ~4B).
-
-## Why These Specific Values Work:
+## Why These Specific Values Work
 
 ### Temperature: 0.6
 
