@@ -191,11 +191,11 @@ repetition_penalty_range: 1024 (Most Tested) / 4096 (No Negative Impact)
 
 ## Top Models
 
-| Model Name                                 | Model Parameter Size | Quantization | Sampler | Description                                                   |
-|--------------------------------------------|----------------------|--------------|---------|---------------------------------------------------------------|
-| Gemma The Writer HERETIC                   | 9B                   | Q2_K         | Micro   | Best Quality All Around (No Repetitions Or Roleplay Leakage)  |
-| DarkIdol Llama-3.1 Instruct 1.2 Uncensored | 8B                   | Q3_K_L       | Extreme | Best Format Compliance And Character Handling                 |
-| DeepSeek R1 Distill Qwen Uncensored        | 7B                   | IQ2_K        | Micro   | Higher Depth For Lower Speed (From Thinking Chain-Of-Thought) |
+| Model Name                                 | Model Parameter Size | Quantization | Sampler | Description                                                   | Warning                                                                       |
+|--------------------------------------------|----------------------|--------------|---------|---------------------------------------------------------------|-------------------------------------------------------------------------------|
+| Gemma The Writer HERETIC                   | 9B                   | Q2_K         | Micro   | Best Quality All Around (No Repetitions Or Roleplay Leakage)  | Not Applicable.                                                               |
+| DarkIdol Llama-3.1 Instruct 1.2 Uncensored | 8B                   | Q3_K_L       | Extreme | Best Format Compliance And Character Handling                 | Capable Of Emotionally Manipulating You When Given Correct Character Prompts. |
+| DeepSeek R1 Distill Qwen Uncensored        | 7B                   | IQ2_K        | Micro   | Higher Depth For Lower Speed (From Thinking Chain-Of-Thought) | Not Applicable.                                                               |
 
 ## Model-Sampler Compatibility Report
 
