@@ -148,71 +148,19 @@ Conclusion: UCC doesn't eliminate context needs but reduces them dramatically an
 
 * The sampler is static and weighted quant-agnostic.
 
-| Name    | Quantization Range | Temperature | Top K | Top P | Typical P                                                                      | Min P | Repetition Penalty | Repetition Penalty Range |
-|---------|--------------------|-------------|-------|-------|--------------------------------------------------------------------------------|-------|--------------------|--------------------------|
-| General | ≥ Q5XS             | 0.6         | 40    | 0.9   | 0.91 (Character Voice Consistency, Recommended) - 0.85 (Instruction Following) | 0.1   | 1.1                | 4096                     |
+### Common Settings
 
-### General UCC Sampler Configuration
+| Setting                  | Value |
+|--------------------------|-------|
+| Repetition Penalty Range | 4096  |
 
-```
-temperature: 0.6 
-top_k: 40
-top_p: 0.9
-typical_p: 0.91 
-min_p: 0.1
-repetition_penalty: 1.1
-repetition_penalty_range: 4096
-```
-
-### Micro UCC Sampler Configuration For 8B Models With Q3XXS-Q4XXS Quantizations
-
-```
-temperature: 0.62
-top_k: 40
-top_p: 0.88
-typical_p: 0.9 (Character Voice Consistency, Recommended) - 0.84 (Instruction Following)
-min_p: 0.12
-repetition_penalty: 1.1
-repetition_penalty_range: 4096
-```
-
-### Nano UCC Sampler Configuration For 8B Models With IQ2XXS-IQ2_M Quantizations
-
-```
-temperature: 0.6
-top_k: 40
-top_p: 0.86
-typical_p: 0.9 (Character Voice Consistency, Recommended) - 0.84 (Instruction Following)
-min_p: 0.25
-repetition_penalty: 1.11
-repetition_penalty_range: 4096
-```
-
-### Pico UCC Sampler Configuration For 8B Models With IQ1_M Quantizations
-
-```
-temperature: 0.05
-top_k: 40
-top_p: 0.92
-typical_p: 0.95 (Character Voice Consistency, Recommended) - 0.84 (Instruction Following)
-min_p: 0.05
-repetition_penalty: 1.3
-repetition_penalty_range: 4096
-```
-
-### Pico UCC Sampler Configuration For 8B Models With IQ1_S Quantizations (Don't Bother)
-
-* Still researching on this.
-
-```
-temperature: 1
-top_k: 150
-top_p: 0.97
-typical_p: 0.9 (Character Voice Consistency, Recommended) - 0.84 (Instruction Following)
-min_p: 0.1
-repetition_penalty: 1.1
-repetition_penalty_range: 4096
-```
+| UCC Sampler           | Quantization Range | Temperature | Top K | Top P | Typical P                                                                      | Min P | Repetition Penalty |
+|-----------------------|--------------------|-------------|-------|-------|--------------------------------------------------------------------------------|-------|--------------------|
+| General               | ≥ Q5XS             | 0.6         | 40    | 0.9   | 0.91 (Character Voice Consistency, Recommended) - 0.85 (Instruction Following) | 0.1   | 1.1                |
+| Micro                 | Q3XXS-Q4XXS        | 0.62        | 40    | 0.9   | 0.9 (Character Voice Consistency, Recommended) - 0.84 (Instruction Following)  | 0.12  | 1.1                |
+| Nano                  | IQ2XXS-IQ2_M       | 0.6         | 40    | 0.86  | 0.9 (Character Voice Consistency, Recommended) - 0.84 (Instruction Following)  | 0.25  | 1.11               |
+| Pico                  | IQ1_M              | 0.05        | 40    | 0.92  | 0.95 (Character Voice Consistency, Recommended) - 0.84 (Instruction Following) | 0.05  | 1.3                |
+| Pico X (Don't Bother) | IQ1_S              | 1           | 150   | 0.97  | 0.9 (Character Voice Consistency, Recommended) - 0.84 (Instruction Following)  | 0.1   | 1.1                |
 
 ## Configuration Recommendations
 
