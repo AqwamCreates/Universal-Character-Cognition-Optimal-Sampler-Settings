@@ -191,7 +191,7 @@ repetition_penalty_range: 1024 (Most Tested) / 4096 (No Negative Impact)
 * Speed-Leakage Trade-Off:
 
  * IQ2_K / Q2_K Quantization -> Fast Speed, But Ocassional Roleplay Leakage.
- * IQ3_S / IQ3_S Quantization -> Slightly Slower, But No Roleplay Leakage.
+ * IQ3_K_S / IQ3_K_S Quantization -> Slightly Slower, But No Roleplay Leakage.
 
 ## Model-Sampler Compatibility Report:
 
@@ -237,7 +237,7 @@ repetition_penalty_range: 1024 (Most Tested) / 4096 (No Negative Impact)
 
 | Model Name                                 | Model Parameter Size | Quantization | Description                                                  |
 |--------------------------------------------|----------------------|--------------|--------------------------------------------------------------|
-| Qwen 2.5 Instruct Uncensored               | 7B                   | IQ3_S        | High Quality Q2_K                              ge            |
+| Qwen 2.5 Instruct Uncensored               | 7B                   | IQ3_K_S      | High Quality Q2_K                                            |
 | Qwen 2.5 Instruct Uncensored               | 7B                   | IQ2_K        | Fast High Quality Q2_K But Minor Roleplay Leakage            |
 | Huihui NVIDIA Nemotron Nano v2 Abliterated | 9B                   | IQ2_K        | High Quality Q2_K But Bottlenecked By CoT x Inference Speed  |
 
