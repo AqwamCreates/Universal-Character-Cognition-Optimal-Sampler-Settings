@@ -177,12 +177,12 @@ repetition_penalty_range: 1024 (Most Tested) / 4096 (No Negative Impact)
 * Chain-Of-Thought (CoT) Drastically Increase Quality Output When Compared To Non-CoT Versions (Especially at ~4B).
 * Feels Like You Upgraded The Model For 2-3B Parameters For Q2 Inference Speed.
 
-### Big Boys' Murderers
+### Free Model Upgrades
 
 * IQ5_K_L / Q5_K_L Quant Models
 * General Sampler Configuration (Works Consistently Across 2B-13B)
 * Chain-Of-Thought (CoT) Drastically Increase Quality Output When Compared To Non-CoT Versions (Especially at ~4B).
-* Feels Like You Upgraded The Model For 10-20B Parameters For Q5 Inference Speed.
+* Feels Like You Upgraded The Model For 5-10B Parameters For Q5 Inference Speed.
 
 ## Model-Sampler Compatibility Report:
 
