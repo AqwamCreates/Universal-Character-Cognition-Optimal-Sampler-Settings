@@ -1,4 +1,4 @@
-# Universal Character Cognition Optimal Sampler Settings
+# Universal Character Cognition Sampler
 
 > A Prior-Dominant Generation System for Consistent Patterned Output
 
