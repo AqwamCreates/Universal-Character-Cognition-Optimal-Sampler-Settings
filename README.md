@@ -185,9 +185,7 @@ repetition_penalty_range: 1024 (Most Tested) / 4096 (No Negative Impact)
 ### Overthinking Idiots
 
 * Chain-Of-Thoughts (CoT) Models Only.
-* Mainly 4B (Minimum) / 7B (Recommended) Models.
-* For Long CoT Models, IQ3_K_S / IQ3_K_S Quantization Is The Minimum.
-* For Thinking CoT Models, IQ2_K / IQ2_K Quantization Is The Minimum.
+* Mainly 4B (Minimum) / 7B (Recommended) Models With IQ2_K / IQ2_K Quantization.
 * Micro Sampler Configuration (Works Consistently Across 2B-13B).
 * Feels Like You Upgraded The CoT Model For 2-3B Parameters For Q2 / Q3 Inference Speed.
 
@@ -233,10 +231,11 @@ repetition_penalty_range: 1024 (Most Tested) / 4096 (No Negative Impact)
 
   * Must Use Micro Configurations
 
-| Model Name                                 | Model Parameter Size | Quantization | Description                                                                                                      |
-|--------------------------------------------|----------------------|--------------|------------------------------------------------------------------------------------------------------------------|
-| Qwen 3 Thinking Uncensored                 | 4B                   | IQ2_K        | High "WTF" DarkIdol Llama-3.1 Instruct 1.2 Uncensored Q2_K (High Quality Texts, But Can Never Extract Dialogues) |
-| Huihui NVIDIA Nemotron Nano v2 Abliterated | 9B                   | IQ2_K        | High Quality Q2_K But Bottlenecked By CoT x Inference Speed                                                      |
+| Model Name                                 | Model Parameter Size | Chain-Of-Thought Type | Quantization | Description                                                                                                      |
+|--------------------------------------------|----------------------|-----------------------|--------------|------------------------------------------------------------------------------------------------------------------|
+| Qwen 3 Thinking Uncensored                 | 4B                   | Long                  | IQ2_K        | High "WTF" DarkIdol Llama-3.1 Instruct 1.2 Uncensored Q2_K (High Quality Texts, But Can Never Extract Dialogues) |
+| DeepSeek R1 Distill Qwen Uncensor   ed     | 7B                   | Thinking              | IQ2_K        | High Quality Q2_K                                                                                                |
+| Huihui NVIDIA Nemotron Nano v2 Abliterated | 9B                   | Long                  | IQ2_K        | High Quality Q2_K But Bottlenecked By CoT x Inference Speed (Due To Transparent Text Generation)                 |
 
 ### "Probably Not Worth It" Models
 
