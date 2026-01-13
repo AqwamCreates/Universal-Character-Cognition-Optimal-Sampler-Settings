@@ -1,6 +1,8 @@
 # Universal Character Cognition Optimal Sampler Settings
 
-* Abbreviated As UCC Sampler
+> A Prior-Dominant Generation System for Consistent Patterned Output
+
+> Abbreviated As UCC Sampler
 
 ## What This Sampler Settings Can Do
 
