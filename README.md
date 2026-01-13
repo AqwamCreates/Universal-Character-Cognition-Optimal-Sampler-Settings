@@ -22,7 +22,9 @@
 
 * Everyday Human Manipulation Hidden Inside Training Data
 
-  * Includes Guilt Trips, Minimizing, Gaslighting
+  * Includes Guilt Trips, Minimizing, Gaslighting...
+
+  * PS: Profoundly Disturbing For My "Sociopath" Brain. I Thought It Would Not Be That Common.
 
 * Reveals What Kind Of Training Data Was Fed For That Particular Model
 
