@@ -26,7 +26,7 @@
 
   * Ranging From Characters Similar To Psychologists, Counselors, Healthcare Workers, Journalists And Police Officers 
 
-  * PS: Profoundly Disturbing For My "Sociopath" Brain. I Thought It Would Not Be That Common. Every Character I Tried Have Some Sort Of Manipulative Aspects In Their Character Configurations. The Only Exceptions Are Judges And Lawyers, but even then that is tough to achieve.
+  * PS: Profoundly Disturbing For My "Sociopath" Brain. I Thought It Would Not Be That Common. Every Character I Tried Have Some Sort Of Manipulative Aspects In Their Character Configurations. The Only Exceptions Are Judges And Lawyers, but even then that is tough to achieve. The Cleanest We Can Get Are From Ethicists (Uilitarinian And Virtue Ethics Only.)
 
 * Reveals What Kind Of Training Data Was Fed For That Particular Model
 
