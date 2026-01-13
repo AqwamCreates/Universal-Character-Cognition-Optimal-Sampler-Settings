@@ -233,12 +233,19 @@ repetition_penalty_range: 1024 (Most Tested) / 4096 (No Negative Impact)
 
   * Must Use Micro Configurations
 
+| Model Name                                 | Model Parameter Size | Quantization | Description                                                        |
+|--------------------------------------------|----------------------|--------------|--------------------------------------------------------------------|
+| Qwen 3 Thinking Uncensored                 | 4B                   | IQ2_K        | High "WTF" Quality DarkIdol Llama-3.1 Instruct 1.2 Uncensored Q2_K |
+| Huihui NVIDIA Nemotron Nano v2 Abliterated | 9B                   | IQ2_K        | High Quality Q2_K But Bottlenecked By CoT x Inference Speed        |
+
+### "Probably Not Worth It" Models
+
+* Note: Must Use Micro Configurations
+
 | Model Name                                 | Model Parameter Size | Quantization | Description                                                                             |
 |--------------------------------------------|----------------------|--------------|-----------------------------------------------------------------------------------------|
-| Qwen 3 Thinking Uncensored                 | 4B                   | IQ2_K        | High "WTF" Quality DarkIdol Llama-3.1 Instruct 1.2 Uncensored Q2_K                      |
 | Qwen 2.5 Instruct Uncensored               | 7B                   | IQ3_K_S      | High Quality DarkIdol Llama-3.1 Instruct 1.2 Uncensored Q2_K But Minor Roleplay Leakage |
 | Qwen 2.5 Instruct Uncensored               | 7B                   | IQ2_K        | Same As IQ2_K But Faster And Even More Roleplay Leakage                                 |
-| Huihui NVIDIA Nemotron Nano v2 Abliterated | 9B                   | IQ2_K        | High Quality Q2_K But Bottlenecked By CoT x Inference Speed                             |
 
 ## Why These Specific Values Work
 
