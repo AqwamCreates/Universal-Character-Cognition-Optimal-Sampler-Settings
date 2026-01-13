@@ -4,7 +4,7 @@
 
 > Abbreviated As UCC Sampler
 
-## What This Sampler Settings Can Do
+## What This Sampler Stack Can Do
 
 * Consistent Identity Roleplay
 
