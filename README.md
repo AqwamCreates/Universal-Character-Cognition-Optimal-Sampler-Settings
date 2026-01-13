@@ -151,19 +151,20 @@ Conclusion: UCC doesn't eliminate context needs but reduces them dramatically an
 
 | Setting                  | Value                                                                         |
 |--------------------------|-------------------------------------------------------------------------------|
+| Top K                    | 40 (More Repetitive, Recommended) - 70 (More Exploration)                     |
 | Typical P                | 0.9 (Character Voice Consistency, Recommended) - 0.85 (Instruction Following) |
 | Repetition Penalty       | 1.1                                                                           |
 | Repetition Penalty Range | 4096                                                                          |
 
 ### Quantization-Specific Settings
 
-| UCC Sampler           | Quantization Range | Temperature | Top K | Top P | Min P |
-|-----------------------|--------------------|-------------|-------|-------|-------|
-| General               | ≥ Q5XS             | 0.6         | 40    | 0.9   | 0.1   |
-| Micro                 | Q3XXS - Q4XXS      | 0.6         | 40    | 0.9   | 0.12  |
-| Nano                  | IQ2XXS - IQ2_M     | 0.6         | 40    | 0.86  | 0.25  |
-| Pico                  | IQ1_M              | 0.05        | 40    | 0.92  | 0.05  |
-| Pico X (Don't Bother) | IQ1_S              | 1           | 150   | 0.97  | 0.1   |
+| UCC Sampler           | Quantization Range | Temperature | Top P | Min P |
+|-----------------------|--------------------|-------------|-------|-------|
+| General               | ≥ Q5XS             | 0.6         | 0.9   | 0.1   |
+| Micro                 | Q3XXS - Q4XXS      | 0.6         | 0.9   | 0.12  |
+| Nano                  | IQ2XXS - IQ2_M     | 0.6         | 0.86  | 0.25  |
+| Pico                  | IQ1_M              | 0.05        | 0.92  | 0.05  |
+| Pico X (Don't Bother) | IQ1_S              | 1           | 0.97  | 0.1   |
 
 ## Configuration Recommendations
 
