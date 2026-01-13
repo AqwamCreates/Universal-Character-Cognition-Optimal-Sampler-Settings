@@ -54,11 +54,11 @@
 
 * Once sampler configuration is out of the way, your only problem would be the characters' prompts to produce outputs. In other words, it has very high character consistency with enough creativity to produce realistic human responses. This includes:
 
- * How you format dialogue and action texts;
+  * How you format dialogue and action texts;
 
- * Characters' unconscious behaviour when defined;
+  * Characters' unconscious behaviour when defined;
 
- * Word Repetitions (definitely not coming from sampler but from the characters' identity itself).
+  * Word Repetitions (definitely not coming from sampler but from the characters' identity itself).
 
 * Must watch for training data x character prompt incompatibility.
 
