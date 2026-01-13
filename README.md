@@ -146,7 +146,7 @@ Conclusion: UCC doesn't eliminate context needs but reduces them dramatically an
 
 ## Sampler Parameters
 
-* The sampler is static and weighted quant-agnostic. Feel free to change it as you wish.
+* The sampler is static and weighted quant-agnostic.
 
 ### General UCC Sampler Configuration
 
