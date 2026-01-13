@@ -1,6 +1,6 @@
 # Universal Character Cognition Sampler
 
-> A Prior-Dominant Generation System for Consistent Patterned Output
+> A Prior-Dominant Generation System For Consistent Patterned Output
 
 > Abbreviated As UCC Sampler
 
