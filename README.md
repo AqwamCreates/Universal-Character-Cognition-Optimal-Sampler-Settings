@@ -94,7 +94,7 @@ This sampler configuration creates a three-stage cognitive pipeline:
 
 With this sampler configuration, it also does this as you talk:
 
-1. typical_p looks at the existing details and examples on how a character would respond to a generic user. This is known as "prior bias". There are three types of priors here:
+1. typical_p looks at the existing details and examples on how a character would respond to a generic user. This is known as "prior bias". There are 4 types of priors here:
 
    1. Training data prior: The general knowledge that is encoded inside the model.
 
