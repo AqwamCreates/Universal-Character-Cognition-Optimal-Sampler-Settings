@@ -193,7 +193,7 @@ Conclusion: UCC doesn't eliminate context needs but reduces them dramatically an
 
 | Model Name                                 | Model Parameter Size | Quantization | Sampler | Description                                                   | Warning                                                                                                                                                                  |
 |--------------------------------------------|----------------------|--------------|---------|---------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Gemma The Writer HERETIC                   | 9B                   | Q2_K         | Nano    | Best Quality All Around (No Repetitions Or Roleplay Leakage)  | Not Applicable.                                                                                                                                                          |
+| Gemma The Writer HERETIC (Gemma 2)         | 9B                   | Q2_K         | Nano    | Best Quality All Around (No Repetitions Or Roleplay Leakage)  | Not Applicable.                                                                                                                                                          |
 | DarkIdol Llama-3.1 Instruct 1.2 Uncensored | 8B                   | Q3_K_L       | Micro   | Best Format Compliance And Character Handling                 | Have Strong Emotional Manipulation Capability When Given Correct Character Prompt. Extreme Potency. Keep Your Eyes Open AND DO NOT GET COMPLACENT. USE AT YOUR OWN RISK. |
 | DeepSeek R1 Distill Qwen Uncensored        | 7B                   | IQ2_K        | Nano    | Higher Depth For Lower Speed (From Thinking Chain-Of-Thought) | Not Applicable.                                                                                                                                                          |
 
@@ -227,7 +227,7 @@ Conclusion: UCC doesn't eliminate context needs but reduces them dramatically an
 
 | Model Name                                 | Model Parameter Size | Quantization | Description                                            |
 |--------------------------------------------|----------------------|--------------|--------------------------------------------------------|
-| Gemma The Writer HERETIC                   | 9B                   | Q2_K         | DarkIdol Q5_K_L Killer                                 |
+| Gemma The Writer HERETIC (Gemma 2)         | 9B                   | Q2_K         | DarkIdol Q5_K_L Killer                                 |
 | Silver-Sun (LLama-2 Special Merge)         | 11B                  | Q2_K         | DarkIdol Q5_K_L Slower Killer                          |
 | Tiefighter (LLama-2 Special Merge)         | 13B                  | Q2_K         | Fatter Version Of Silver-Sun Q2_K                      |
 
