@@ -153,15 +153,15 @@ Conclusion: UCC doesn't eliminate context needs but reduces them dramatically an
 
 ### Quantization-Agnostic Settings
 
-| Setting                  | Recommended Value | Lower Bound Value            | Upper Bound                       |
-|--------------------------|-------------------|------------------------------|-----------------------------------|
-| Top K                    | 50                | 40 (More Character Rigidity) | 60 (More Exploration)             |  
-| Typical P                | 0.85              | 0.85 (Reply Creativity)      | 0.9 (Character Voice Consistency) |
-| DRY Multipler            | 0.35              | N/A                          | N/A                               |
-| dry_allowed_length       | 2                 | N/A                          | N/A                               |
-| DRY Base                 | 1.35              | N/A                          | N/A                               |
-| Repetition Penalty       | 1.1               | N/A                          | N/A                               |
-| Repetition Penalty Range | 4096              | N/A                          | N/A                               |
+| Setting                  | Recommended Value | Lower Bound Value               | Upper Bound                     |
+|--------------------------|-------------------|---------------------------------|---------------------------------|
+| Top K                    | 50                | 40 (More Character Rigidity)    | 60 (More Character Exploration) |  
+| Typical P                | 0.85              | 0.85 (Adaptive Character Voice) | 0.9 (Strict Character Voice)    |
+| DRY Multipler            | 0.35              | N/A                             | N/A                             |
+| dry_allowed_length       | 2                 | N/A                             | N/A                             |
+| DRY Base                 | 1.35              | N/A                             | N/A                             |
+| Repetition Penalty       | 1.1               | N/A                             | N/A                             |
+| Repetition Penalty Range | 4096              | N/A                             | N/A                             |
 
 ### Quantization-Specific Settings
 
