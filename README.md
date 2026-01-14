@@ -92,7 +92,8 @@ These samplers are stacked in order as shown below.
 3. top_p                 # Expressive Range
 4. typical_p             # Personality Preservation (IMPORTANT)
 5. min_p                 # Nonsense Filter
-6. repetition_penalty    # Natural Flow Maintenance
+6. dry                   $ Removes Sequence Repetition
+7. repetition_penalty    # Natural Flow Maintenance
 ```
 
 ## Three-Stage Optimization Pipeline
@@ -155,6 +156,9 @@ Conclusion: UCC doesn't eliminate context needs but reduces them dramatically an
 |--------------------------|-------------------|------------------------------|-----------------------------------|
 | Top K                    | 50                | 40 (More Character Rigidity) | 60 (More Exploration)             |  
 | Typical P                | 0.9               | 0.85 (Instruction Following) | 0.9 (Character Voice Consistency) |
+| DRY Multipler            | 0.35              | N/A                          | N/A                               |
+| dry_allowed_length       | 2                 | N/A                          | N/A                               |
+| DRY Base                 | 1.35              | N/A                          | N/A                               |
 | Repetition Penalty       | 1.1               | N/A                          | N/A                               |
 | Repetition Penalty Range | 4096              | N/A                          | N/A                               |
 
