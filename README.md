@@ -155,7 +155,7 @@ Conclusion: UCC doesn't eliminate context needs but reduces them dramatically an
 
 | Setting                  | Recommended Value | Lower Bound Value               | Upper Bound                     |
 |--------------------------|-------------------|---------------------------------|---------------------------------|
-| Top K                    | 50                | 40 (More Character Rigidity)    | 60 (More Character Exploration) |  
+| Top K                    | 50                | 40 (Low Expression Budget)      | 60 (High Expression Budget)     |  
 | Typical P                | 0.85              | 0.85 (Adaptive Character Voice) | 0.9 (Strict Character Voice)    |
 | DRY Multipler            | 0.35              | N/A                             | N/A                             |
 | dry_allowed_length       | 2                 | N/A                             | N/A                             |
