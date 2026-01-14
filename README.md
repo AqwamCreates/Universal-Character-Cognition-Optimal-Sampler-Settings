@@ -2,6 +2,8 @@
 
 > A Prior-Dominant Generation System For Consistent Patterned Output
 
+> Functionally Equivalent To Programming Language Interpreter For Natural Language
+
 > Abbreviated As UCC Sampler
 
 ## What This Sampler Stack Can Do
