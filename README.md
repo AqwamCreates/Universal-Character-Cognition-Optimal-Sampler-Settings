@@ -156,7 +156,7 @@ Conclusion: UCC doesn't eliminate context needs but reduces them dramatically an
 | Setting                  | Recommended Value | Lower Bound Value            | Upper Bound                       |
 |--------------------------|-------------------|------------------------------|-----------------------------------|
 | Top K                    | 50                | 40 (More Character Rigidity) | 60 (More Exploration)             |  
-| Typical P                | 0.9               | 0.85 (Instruction Following) | 0.9 (Character Voice Consistency) |
+| Typical P                | 0.85              | 0.85 (Instruction Following) | 0.9 (Character Voice Consistency) |
 | DRY Multipler            | 0.35              | N/A                          | N/A                               |
 | dry_allowed_length       | 2                 | N/A                          | N/A                               |
 | DRY Base                 | 1.35              | N/A                          | N/A                               |
@@ -267,7 +267,7 @@ Conclusion: UCC doesn't eliminate context needs but reduces them dramatically an
 * Not too high (0.8-1.2 = random)
 * **Optimal balance** for character consistency with natural variation
 
-### Typical_p: 0.9
+### Typical_p: 0.85
 
 * Strongly favors tokens "typical" for the character/situation
 * Lower (0.7-0.8) = More creative but less consistent character
