@@ -189,7 +189,7 @@ Conclusion: UCC doesn't eliminate context needs but reduces them dramatically an
 
 ### Overthinking Idiots
 
-* Chain-Of-Thoughts (CoT) Models Only.
+* Chain-Of-Thought (CoT) Models Only.
 * Mainly 4B (Minimum) / 7B (Recommended) Models With IQ2_K / IQ2_K Quantization.
 * Nano Sampler Configuration (Works Consistently Across 2B-13B).
 * Feels Like You Upgraded The CoT Model For 2-3B Parameters For Q2 / Q3 Inference Speed.
