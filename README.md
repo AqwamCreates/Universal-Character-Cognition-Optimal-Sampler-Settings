@@ -223,8 +223,6 @@ Conclusion: UCC doesn't eliminate context needs but reduces them dramatically an
 | DarkIdol Llama-3.1 Instruct 1.2 Uncensored | 8B                   | Q2_K         | Rivals With Q3_K_L With High Speed                                           |
 | DarkIdol Llama-3.1 Instruct 1.2 Uncensored | 8B                   | IQ2_M        | Same As Q2_K Requires Some Refreshes Due To Roleplay Leakage And Repetitions |
 | DarkIdol Llama-3.1 Instruct 1.2 Uncensored | 8B                   | IQ2XXS       | Basic Depth                                                                  |
-| DarkIdol Llama-3.1 Instruct 1.2 Uncensored | 8B                   | IQ1_M        | "Text Messenger"                                                             |
-| DarkIdol Llama-3.1 Instruct 1.2 Uncensored | 8B                   | IQ1_S        | "Text Generator"                                                             |
 
 ### The Big Boys
 
@@ -258,6 +256,8 @@ Conclusion: UCC doesn't eliminate context needs but reduces them dramatically an
 |--------------------------------------------|----------------------|--------------|-----------------------------------------------------------------------------------------|
 | Qwen 2.5 Instruct Uncensored               | 7B                   | IQ3_K_S      | High Quality DarkIdol Llama-3.1 Instruct 1.2 Uncensored Q2_K But Minor Roleplay Leakage |
 | Qwen 2.5 Instruct Uncensored               | 7B                   | IQ2_K        | Same As IQ2_K But Faster And Even More Roleplay Leakage                                 |
+| DarkIdol Llama-3.1 Instruct 1.2 Uncensored | 8B                   | IQ1_M        | "Text Messenger"                                                                        |
+| DarkIdol Llama-3.1 Instruct 1.2 Uncensored | 8B                   | IQ1_S        | "Text Generator"                                                                        |
 
 ## Why These Specific Values Work
 
