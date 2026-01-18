@@ -268,6 +268,7 @@ Conclusion: UCC doesn't eliminate context needs but reduces them dramatically an
 | Qwen 2.5 Instruct Uncensored               | 7B                   | IQ2_K        | Same As IQ2_K But Faster And Even More Roleplay Leakage                                 |
 | DarkIdol Llama-3.1 Instruct 1.2 Uncensored | 8B                   | IQ1_M        | "Text Messenger"                                                                        |
 | DarkIdol Llama-3.1 Instruct 1.2 Uncensored | 8B                   | IQ1_S        | "Text Generator"                                                                        |
+| Qwen3 MOE Lucys Song Uncensored.i1         | 4x1.7B = 6.8B        | Q3_K_L       | Poor Overall Performance                                                                |
 
 ## Why These Specific Values Work
 
